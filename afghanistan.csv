@@ -1,4 +1,4 @@
-Conflict Name,Type of violence,Year,Long,Lat,Side A,Side B,Deaths A,Deaths B
+Conflict.Name,Type.of.violence,Year,Long,Lat,Side.A,Side.B,Deaths.A,Deaths.B
 Afghanistan:Government,1,1998,64.83333,36.25,Government of Afghanistan,UIFSA,0,0
 Afghanistan:Government,1,1998,68.911,37.1813,Government of Afghanistan,UIFSA,22,0
 Afghanistan:Government,1,2004,65.465693,32.584696,Government of Afghanistan,Taleban,1,0
@@ -7,7 +7,6 @@ Afghanistan:Government,1,2004,67.25,32.25,Government of Afghanistan,Taleban,0,0
 Government of Afghanistan - Civilians,3,2004,69.918411,33.335091,Government of Afghanistan,Civilians,0,0
 Afghanistan:Government,1,2004,66.905121,32.10368,Government of Afghanistan,Taleban,2,0
 Afghanistan:Government,1,2004,65.465693,32.584696,Government of Afghanistan,Taleban,0,0
-Jam'iyyat-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,2,2004,67.116647,36.700067,Jam'iyyat-i Islami-yi Afghanistan,Junbish-i Milli-yi Islami,0,0
 Afghanistan:Government,1,2004,62.923611,32.553611,Government of Afghanistan,Taleban,6,0
 Afghanistan:Government,1,2004,66.718156,32.329205,Government of Afghanistan,Taleban,0,2
 Afghanistan:Government,1,2004,67.151789,31.918721,Government of Afghanistan,Taleban,0,8
@@ -15,7 +14,6 @@ Afghanistan:Government,1,2004,67.673602,32.499925,Government of Afghanistan,Tale
 Afghanistan:Government,1,2004,66.203194,32.210796,Government of Afghanistan,Taleban,0,0
 Afghanistan:Government,1,2004,65.75,31.0,Government of Afghanistan,Taleban,0,0
 Afghanistan:Government,1,2004,65.158015,31.072875,Government of Afghanistan,Taleban,0,0
-Hizb-i Wahdat - Junbish-i Milli-yi Islami,2,1998,67.694862,36.694,Hizb-i Wahdat,Junbish-i Milli-yi Islami,0,0
 Afghanistan:Government,1,1998,68.715122,35.944583,Government of Afghanistan,UIFSA,0,0
 Afghanistan:Government,1,1998,69.162796,34.531094,Government of Afghanistan,UIFSA,0,0
 Afghanistan:Government,1,1998,68.75,36.75,Government of Afghanistan,UIFSA,5,0
@@ -317,7 +315,6 @@ Afghanistan:Government,1,2004,67.633333,32.716667,Government of Afghanistan,Tale
 Afghanistan:Government,1,2004,65.873313,32.62675,Government of Afghanistan,Taleban,0,6
 Afghanistan:Government,1,2004,70.084213,34.825481,Government of Afghanistan,Taleban,0,1
 Taleban - Civilians,3,2004,67.253177,31.447533,Taleban,Civilians,0,0
-Forces of Amanullah Khan  - Forces of Ismail Khan,2,2004,62.359647,33.244188,Forces of Amanullah Khan,Forces of Ismail Khan,7,14
 Afghanistan:Government,1,2004,64.765051,35.821369,Government of Afghanistan,Taleban,0,0
 Afghanistan:Government,1,2004,64.8964,31.6782,Government of Afghanistan,Taleban,6,0
 Afghanistan:Government,1,2004,67.253177,31.447533,Government of Afghanistan,Taleban,0,6
@@ -398,15 +395,9 @@ Government of Afghanistan - Civilians,3,1998,70.45575,34.428844,Government of Af
 Government of Afghanistan - Civilians,3,1998,71.082206,34.13106,Government of Afghanistan,Civilians,0,0
 Government of Afghanistan - Civilians,3,1998,66.353438,34.706397,Government of Afghanistan,Civilians,0,0
 Afghanistan:Government,1,1998,69.416667,34.5,Government of Afghanistan,UIFSA,4,0
-United States of America:Government,1,2004,69.883334,33.383334,Government of United States of America,al-Qaida,0,0
-United States of America:Government,1,2004,66.688212,32.612577,Government of United States of America,al-Qaida,0,2
-United States of America:Government,1,2004,62.480503,32.630096,Government of United States of America,al-Qaida,1,0
-United States of America:Government,1,2004,70.7128,34.3098,Government of United States of America,al-Qaida,0,4
 Afghanistan:Government,1,1998,69.67923,34.797169,Government of Afghanistan,UIFSA,0,0
 Afghanistan:Government,1,1998,69.1741,35.0159,Government of Afghanistan,UIFSA,0,0
 Afghanistan:Government,1,1998,69.342607,36.607485,Government of Afghanistan,UIFSA,0,1
-Jam'iyyat-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,2,1998,68.204772,37.079853,Jam'iyyat-i Islami-yi Afghanistan,Junbish-i Milli-yi Islami,0,0
-Hizb-i Wahdat - Junbish-i Milli-yi Islami,2,1998,67.30703,36.951638,Hizb-i Wahdat,Junbish-i Milli-yi Islami,0,0
 Afghanistan:Government,1,1998,72.0,36.75,Government of Afghanistan,UIFSA,0,0
 Afghanistan:Government,1,1998,68.787686,35.010389,Government of Afghanistan,UIFSA,0,0
 Afghanistan:Government,1,1998,64.78476,35.91732,Government of Afghanistan,UIFSA,2,2
@@ -422,12 +413,9 @@ Government of Afghanistan - Civilians,3,1998,67.35117,32.533601,Government of Af
 Afghanistan:Government,1,1998,69.342607,36.607485,Government of Afghanistan,UIFSA,15,0
 Afghanistan:Government,1,2004,69.776604,33.318041,Government of Afghanistan,Taleban,0,3
 Afghanistan:Government,1,2004,64.0,31.0,Government of Afghanistan,Taleban,0,0
-Jam'iyyat-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,2,2004,66.900055,36.426033,Jam'iyyat-i Islami-yi Afghanistan,Junbish-i Milli-yi Islami,0,1
 Government of Afghanistan - Civilians,3,2004,65.488876,32.969425,Government of Afghanistan,Civilians,0,0
-Jam'iyyat-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,2,2004,67.116647,36.700067,Jam'iyyat-i Islami-yi Afghanistan,Junbish-i Milli-yi Islami,1,0
 Afghanistan:Government,1,2004,66.045385,32.112391,Government of Afghanistan,Taleban,0,0
 Afghanistan:Government,1,2004,64.7417,32.3052,Government of Afghanistan,Taleban,1,0
-Jam'iyyat-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,2,2004,66.900055,36.426033,Jam'iyyat-i Islami-yi Afghanistan,Junbish-i Milli-yi Islami,0,0
 Afghanistan:Government,1,2004,65.474153,32.920909,Government of Afghanistan,Taleban,0,0
 Afghanistan:Government,1,2004,69.25,34.0,Government of Afghanistan,Taleban,0,0
 Afghanistan:Government,1,2004,69.140267,33.532253,Government of Afghanistan,Taleban,0,0
@@ -438,13 +426,11 @@ Afghanistan:Government,1,2004,66.8925,32.398611,Government of Afghanistan,Taleba
 Afghanistan:Government,1,2004,64.0,31.0,Government of Afghanistan,Taleban,1,0
 Afghanistan:Government,1,2004,67.633333,32.716667,Government of Afghanistan,Taleban,1,0
 Afghanistan:Government,1,2004,69.241591,33.601338,Government of Afghanistan,Taleban,0,1
-Jam'iyyat-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,2,2004,67.116647,36.700067,Jam'iyyat-i Islami-yi Afghanistan,Junbish-i Milli-yi Islami,0,0
 Afghanistan:Government,1,2004,70.190835,33.383675,Government of Afghanistan,Taleban,3,1
 Afghanistan:Government,1,2004,67.528381,32.154018,Government of Afghanistan,Taleban,4,2
 Afghanistan:Government,1,2004,66.335951,32.378207,Government of Afghanistan,Taleban,2,0
 Afghanistan:Government,1,2004,65.444794,32.956692,Government of Afghanistan,Taleban,0,2
 Afghanistan:Government,1,2004,65.465693,32.584696,Government of Afghanistan,Taleban,3,0
-Jam'iyyat-i Islami-yi Afghanistan - Junbish-i Milli-yi Islami,2,2004,64.774094,35.378197,Jam'iyyat-i Islami-yi Afghanistan,Junbish-i Milli-yi Islami,0,0
 Afghanistan:Government,1,2004,69.883334,33.383334,Government of Afghanistan,Taleban,0,7
 Afghanistan:Government,1,1998,69.265277,34.940555,Government of Afghanistan,UIFSA,0,2
 Afghanistan:Government,1,2004,69.051591,33.973743,Government of Afghanistan,Taleban,0,0
