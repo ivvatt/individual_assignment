@@ -16,7 +16,7 @@ with open ('conflict_data_full_lined.json', encoding='utf-8-sig') as file:
             #select all entries for Afghanistan for 1998 and for 
             if conflict['year'] == 1998 or conflict['year'] == 2004:
                 #print(f'{conflict["year"]} is of type {type(conflict["year"])}')
-                if 'Taleban' in conflict['side_b'] or 'Civilians' in conflict['side_b'] or 'UIFSA' in conflict['side_b']:
+                if 'Taleban' in conflict['side_b'] or 'UIFSA' in conflict['side_b']:
                     conflicts_afg.append(conflict)
 
 #print(json.dumps(conflicts_afg, indent=4)) #pretty print it in the terminal
