@@ -23,11 +23,11 @@ with open ('conflict_data_full_lined.json', encoding='utf-8-sig') as file:
 #print(len(conflicts_afg)) #how many dictionaries in the list
 
 #make it into a csv file
-headers = ['Conflict.Name', 'Type.of.violence', 'Year', 'Long', 'Lat', 'Side.A', 'Side.B', 'Deaths.A', 'Deaths.B']
+headers = ['Conflict.Name', 'Type.of.violence', 'Year', 'Long', 'Lat', 'Side.A', 'Side.B', 'Deaths.A', 'Deaths.B', 'Deaths.Civilians']
 
 with open('afghanistan.csv', 'w', newline='') as file:
     filewriter = csv.writer(file)
     filewriter.writerow(headers)
     for conflict in conflicts_afg:
-        filewriter.writerow([conflict['conflict_name'], conflict['type_of_violence'], conflict['year'], conflict['longitude'], conflict['latitude'], conflict['side_a'], conflict['side_b'], conflict['deaths_a'], conflict['deaths_b']])
+        filewriter.writerow([conflict['conflict_name'], conflict['type_of_violence'], conflict['year'], conflict['longitude'], conflict['latitude'], conflict['side_a'], conflict['side_b'], conflict['deaths_a'], conflict['deaths_b'], conflict['deaths_civilians']])
 
