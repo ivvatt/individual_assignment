@@ -3,7 +3,7 @@ library('maps')
 
 afghanistan <- read.csv('afghanistan.csv', stringsAsFactors = FALSE)
 
-factor('Year', levels= c("1998", "2004"))''
+factor('Year', levels= c(1998, 2004))
 
 ggplot() +
   geom_polygon(data=map_data('world', region='Afghanistan'), aes(x=long, y=lat, group=group), fill=NA, colour="black") +
