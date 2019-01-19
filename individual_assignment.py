@@ -12,22 +12,17 @@ with open ('conflict_data_full_lined.json', encoding='utf-8-sig') as file:
     for conflict in conflicts:
         #select all entries for Afghanistan
         if "Afghanistan" in conflict['country']:
-            #pass #do nothing
-            #select all entries for Afghanistan for 1998 and for 
+            #select all entries for Afghanistan for 1998 and for 2004:
             if conflict['year'] == 1998 or conflict['year'] == 2004:
-                #print(f'{conflict["year"]} is of type {type(conflict["year"])}')
                 if 'Taleban' in conflict['side_b'] or 'UIFSA' in conflict['side_b']:
                     conflicts_afg.append(conflict)
 
-#print(json.dumps(conflicts_afg, indent=4)) #pretty print it in the terminal
-#print(len(conflicts_afg)) #how many dictionaries in the list
-
 #make it into a csv file
-headers = ['Conflict.Name', 'Type.of.violence', 'Year', 'Long', 'Lat', 'Side.A', 'Side.B', 'Deaths.A', 'Deaths.B', 'Deaths.Civilians']
+headers = ['Conflict.Name', 'Year', 'Long', 'Lat', 'Side.A', 'Side.B', 'Deaths.Civilians']
 
 with open('afghanistan.csv', 'w', newline='') as file:
     filewriter = csv.writer(file)
     filewriter.writerow(headers)
     for conflict in conflicts_afg:
-        filewriter.writerow([conflict['conflict_name'], conflict['type_of_violence'], conflict['year'], conflict['longitude'], conflict['latitude'], conflict['side_a'], conflict['side_b'], conflict['deaths_a'], conflict['deaths_b'], conflict['deaths_civilians']])
+        filewriter.writerow([conflict['conflict_name'], conflict['year'], conflict['longitude'], conflict['latitude'], conflict['side_a'], conflict['side_b'], conflict['deaths_civilians']])
 
